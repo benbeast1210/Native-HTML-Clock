@@ -101,7 +101,7 @@
       const hours = now.getHours();
       const hoursDegrees = ((minutes / 12) * 360) + 90;
 
-      hourHand.style.tranform = `rotate(${hoursDegrees}deg)`
+      hourHand.style.transform = `rotate(${hoursDegrees}deg)`
     }
     // Lastly, this setInterval call updates the current time in the Date class every second.
     setInterval(setDate, 1000);
